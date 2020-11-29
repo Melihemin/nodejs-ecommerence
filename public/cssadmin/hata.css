@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+::selection {
+    background-color: #14274e;
+    color: white;
+}
+
+#main {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+#validationServer01 {
+    border-radius: 40px;
+}
+
+#validationTextarea {
+    border-radius: 20px;
+}
+
+.form-group {
+    border: none;
+    border-radius: 20px;
+    background-color: #d4d4d4;
+}
+
+.jumbotron {
+    border: 1px;
+    border-radius: 40px;
+    background-color: #14274e;
+    color: #f05454;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#ad {
+    margin-left: 20%;
+}
+
+#submitBtn {
+    margin-left: 40%;
+    width: 140px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+@media screen and (max-device-width: 500px)  {
+
+    #ad {
+        margin-left: 0px;
+    }
+
+    #submitBtn {
+        margin-left: 30%;
+    }
+
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+    #main {
+        margin-top: 20px;
+    }
+
+}

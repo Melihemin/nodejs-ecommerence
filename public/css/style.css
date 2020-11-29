@@ -1,0 +1,408 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Trispace:wght@300&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.space {
+  position: relative;
+  background-color: royalblue;
+  top: 6.25rem;
+  left: 12%;
+  width: 90.5rem;
+}
+
+::-moz-selection {
+    background-color: #14274e;
+    color: white;
+    font-weight: bold;
+}
+
+::selection {
+    background-color: #14274e;
+    color: white;
+    font-weight: bold;
+}
+
+.container:first-item {
+    background-color: #222831;
+}
+
+header {
+    background-color:  #222831;
+}
+
+img {
+    width: 2.5rem;
+}
+
+nav {
+    background-color: #222831;
+}
+
+.navbar-brand {
+    margin-right: 12.5rem;
+    font-size: 24px;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+#iletisim {
+    font-family: 'Hind Madurai', sans-serif;
+    background-color: #e79e4f;
+    color: black;
+    -webkit-transition: 300ms all;
+    -o-transition: 300ms all;
+    transition: 300ms all;
+    -moz-transition: 300ms all;
+    -ms-transition: 300ms all;
+}
+
+#iletisim a {
+  color: black;
+  text-decoration: none;
+}
+
+#iletisim:hover {
+    background-color: #a37038;
+    color: rgb(19, 18, 18);
+}
+
+nav ul li a {
+    font-family: 'Lato', sans-serif;
+} 
+
+.dropdown-item:hover {
+    background-color: royalblue;
+    color: white;
+}
+
+#navbarDropdown {
+    padding-right: 2.5rem;
+}
+
+.col-md-5 {
+  margin-top: 10rem;
+}
+
+main .lead {
+  position: relative;
+  font-family: "Fugaz One", sans-serif;
+  font-size: 4.375rem;
+  color: #222831;
+}
+
+main .lead:last-child {
+  position: relative;
+  top: 2rem;
+  font-size: 1.875rem;
+  color: royalblue;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  -webkit-transition: 600ms all;
+  -o-transition: 600ms all;
+  transition: 600ms all;
+  -moz-transition: 600ms all;
+  -ms-transition: 600ms all;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+main .lead:last-child:hover {
+  background-color: royalblue;
+  color: white;
+}
+
+.col-md-7 {
+  position: relative;
+  left: 10rem;
+}
+
+.col-md-7 img {
+  width: 40rem;
+}
+
+#cont {
+  position: relative;
+  top: 8.75rem;
+}
+
+.card {
+  max-width: 15rem;
+  height: 18.125rem;
+  margin-right: 2rem;
+  border-radius: 5px;
+  -webkit-transition: 300ms all;
+  -o-transition: 300ms all;
+  transition: 300ms all;
+}
+
+.card-body h6 {
+  font-size: 1.2rem;
+}
+
+.card:hover {
+  -webkit-box-shadow: 4px 4px 2px 4px #333333;
+          box-shadow: 4px 4px 2px 4px #333333; 
+}
+
+.card button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #14274e;
+  color: white;
+  border-radius: 5px;
+  -webkit-transition: 500ms all;
+  -o-transition: 500ms all;
+  transition: 500ms all;
+  position: relative;
+
+}
+
+.card button:hover {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(43, 70, 151);
+  color: white;
+  -webkit-box-shadow: 2px 2px #0c1830;
+          box-shadow: 2px 2px #0c1830;
+}
+
+.card #detayBtn {
+  background-color: royalblue;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card #closeBtn {
+  background-color: rgb(233, 78, 78);
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* LIST GROUP */ 
+.list-group-item {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 900;
+}
+
+.list-group-item:hover {
+  color: white;
+  background-color: #0c1830;
+}
+.list-group-item:hover span {
+  color: #e79e4f;
+}
+
+/* LIST GROUP */
+
+/* FOOTER */
+footer {
+  margin-top: 12rem;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+footer h6 {
+  font-family: 'Hind Madurai', sans-serif;
+}
+
+.footer-copyright a {
+  color: royalblue;
+  text-decoration: none;
+  font-family: 'Hind Madurai', sans-serif;
+}
+
+footer img {
+  position: relative;
+  left: -2.5rem;
+  width: 10rem;
+}
+
+footer p a {
+  color: royalblue;
+  font-family: 'Hind Madurai', sans-serif;
+}
+
+footer p a:hover {
+  color: rgb(33, 56, 122);
+  text-decoration: none;
+}
+
+#sahibinden {
+  color: #e79e4f;
+}
+/* FOOTER */
+
+
+@media screen and (max-width: 375px) {
+  .col-md-5 {
+    margin-top: 3rem;
+  }
+
+  main .lead {
+    font-size: 3.210rem;;
+  }
+
+  main .lead:last-child { 
+    margin-left: 3rem;
+    width: 4rem;
+  }
+
+  .col-md-7 {
+    margin-top: 5rem;
+    left: 0rem;
+  }
+
+  .col-md-7 img{
+    width: 20rem;
+  }
+
+  .space {
+    width: 15rem;
+  }
+
+  .card {
+    max-width: 18rem; 
+    height: 20rem;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    left: 2rem;
+  }
+}
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px)  {
+
+    .col-md-5 {
+      margin-top: 3rem;
+    }
+  
+    main .lead {
+      font-size: 3.210rem;;
+    }
+  
+    main .lead:last-child { 
+      margin-left: 3rem;
+      width: 4rem;
+    }
+  
+    .col-md-7 {
+      margin-top: 5rem;
+      left: 0rem;
+    }
+  
+    .col-md-7 img{
+      width: 25rem;
+    }
+  
+    .space {
+      width: 18rem;
+    }
+  
+    .card {
+      max-width: 18rem; 
+      height: 20rem;
+      margin-right: 0;
+      margin-bottom: 1rem;
+      left: 3.25rem;
+    }
+}
+
+@media screen and (min-width: 450px) and (max-width: 768px) {
+
+  .col-md-5 {
+    margin-top: 3rem;
+  }
+
+  main .lead {
+    margin-left: 6rem;
+    font-size: 3.210rem;;
+  }
+
+  main .lead:last-child { 
+    margin-left: 8rem;
+    width: 4rem;
+  }
+
+  .col-md-7 {
+    margin-top: 5rem;
+    left: 0rem;
+  }
+
+  .col-md-7 img{
+    position: relative;
+    margin-left: 3rem;
+    width: 25rem;
+  }
+
+  .space {
+    margin-left: 2rem;
+    width: 30rem;
+  }
+
+  .card {
+    max-width: 27rem; 
+    height: 22rem;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    left: 3.25rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+
+  .col-md-5 {
+    margin-top: 12rem;
+  }
+
+  main .lead {
+    font-size: 3.210rem;;
+  }
+
+  main .lead:last-child { 
+    left: 1rem;
+    width: 4rem;
+  }
+
+  .col-md-7 {
+    margin-top: 5rem;
+    left: 0rem;
+  }
+
+  .col-md-7 img{
+    position: relative;
+    margin-left: 3rem;
+    width: 30rem;
+  }
+
+  .space {
+    width: 60rem;
+  }
+
+  .card {
+    max-width: 27rem; 
+    height: 22rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    left: 3.25rem;
+  }
+}

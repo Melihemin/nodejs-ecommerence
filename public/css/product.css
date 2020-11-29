@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body {
+  background-color: rgb(243, 243, 243);
+}
+
+::-moz-selection {
+    background-color: #14274e;
+    color: white;
+    font-weight: bold;
+}
+
+::selection {
+    background-color: #14274e;
+    font-weight: bold;
+    color: white;
+}
+
+#nav-container {
+    background-color: #222831;
+}
+
+header {
+    background-color:  #222831;
+}
+
+nav img {
+    width: 40px;
+}
+
+nav {
+    background-color: #222831;
+}
+
+.navbar-brand {
+    padding-right: 200px;
+    font-size: 24px;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+#iletisim {
+    position: relative;
+    font-family: 'Hind Madurai', sans-serif;
+    background-color: #e79e4f;
+    color: black;
+    transition: 300ms all;
+    -webkit-transition: 300ms all;
+    -moz-transition: 300ms all;
+    -ms-transition: 300ms all;
+    -o-transition: 300ms all;
+}
+
+#iletisim a {
+    color: black;
+    text-decoration: none;
+}
+
+#iletisim:hover {
+    background-color: #a37038;
+    color: rgb(19, 18, 18);
+}
+
+nav ul li a {
+    font-family: 'Lato', sans-serif;
+}
+
+.dropdown-item:hover {
+    background-color: royalblue;
+    color: white;
+}
+
+#navbarDropdown {
+    padding-right: 40px;
+}
+
+/* PRODUCT */
+
+#main-container {
+    margin-top: 6.25rem;
+}
+
+.detail-text {
+    padding-top: 5rem;
+    color: #222831;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.detail-texts {
+    color: #222831;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.newarrival {
+    background-color: #e79e4f;
+    width: 3,125rem;
+    color: #222831;
+    font-size: 0.95rem;
+    font-weight: 700;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.col-md-6 h2 {
+    color: #222831;
+}
+
+.col-md-6 h5 {
+    position: relative;
+    bottom: 1rem;
+    font-weight: bold;
+    color: tomato;
+    font-size: 0.90rem;
+}
+
+.price {
+    color: #e79e4f;
+    font-size: 1.625rem;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 1.25rem;
+}
+
+.cart {
+    background-color: #e79e4f;
+    color: #222831;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+footer h6 {
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.footer-copyright a {
+    color: royalblue;
+    text-decoration: none;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+footer img {
+    position: relative;
+    left: -2.5rem;
+    width: 10rem;
+}
+
+footer p a {
+    color: royalblue;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+footer p a:hover {
+    color: rgb(33, 56, 122);
+    text-decoration: none;
+}
+
+#sahibinden {
+    color: #e79e4f;
+}

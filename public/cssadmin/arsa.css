@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body {
+    background-color: #495464;
+}
+
+.container:last-of-type {
+    background-color: #f3f3f3;
+    border-radius: 10px;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    border: none;
+    background-color: royalblue;
+
+}
+
+.form-group {
+    color: #1a1c20;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-group input {
+    border-radius: 15px;
+}
+
+.form-group select {
+    border-radius: 15px;
+}
+
+
+/* https://v4-alpha.getbootstrap.com/components/forms/ */

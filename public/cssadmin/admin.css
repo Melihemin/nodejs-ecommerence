@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+::selection {
+    background-color: #14274e;
+    color: white;
+    font-weight: bold;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+#hamb {
+    width: 35px;
+    margin-top: 5px;
+    margin-left: 10px;    
+}
+
+nav {
+    background-color: #ebebeb;
+    z-index: 2;
+}
+
+#logo {
+    width: 40px;
+    border: 5px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#sideNav-header {
+    font-size: 22px;
+    color: #e79e4f;
+    text-shadow:  1px 1px black;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#txt {
+    display: flex;
+    padding-top: 30px;
+    color: #e8e8e8;
+    transition: 300ms all;
+    font-size: 25px; 
+}
+
+#txt:hover {
+    color: #f05454;
+    font-size: 27px;
+}
+
+#footer {
+    font-size: 16px;
+    display: flex;
+    margin-top: 420px;
+    color: #f05454;
+    font-weight: bold;
+}
+
+hr {
+    background-color: crimson;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: #1a1c20;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.jumbotron {
+    border: 1px;
+    border-radius: 40px;
+    background-color: #14274e;
+    color: #f05454;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+span {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+i {
+    color: #f8bd7f;
+    font-weight: bold;
+}
+
+#btn {
+    width: 170px;
+    height: 50px;
+    display: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 40%;
+    border: none;
+    border-radius: 40px;
+    background-color: #394867;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: white;
+    transition: 500ms all;
+}
+
+#btn:hover {
+    background-color: #394880;
+    font-weight: 700;
+    width: 172px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+}
+
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }

@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(243, 243, 243);
+}
+
+::-moz-selection {
+    background-color: #14274e;
+    color: white;
+    font-weight: bold;
+}
+
+::selection {
+    background-color: #14274e;
+    font-weight: bold;
+    color: white;
+}
+
+.container:first-item {
+    background-color: #222831;
+}
+
+header {
+    background-color:  #222831;
+}
+
+img {
+    width: 40px;
+}
+
+nav {
+    background-color: #222831;
+}
+
+.navbar-brand {
+    padding-right: 200px;
+    font-size: 24px;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+#iletisim {
+    position: relative;
+    font-family: 'Hind Madurai', sans-serif;
+    background-color: #e79e4f;
+    color: black;
+    transition: 300ms all;
+}
+
+#iletisim a {
+    color: black;
+    text-decoration: none;
+}
+
+#iletisim:hover {
+    background-color: #a37038;
+    color: rgb(19, 18, 18);
+}
+
+nav ul li a {
+    font-family: 'Lato', sans-serif;
+}
+
+.dropdown-item:hover {
+    background-color: tomato;
+}
+
+#navbarDropdown {
+    padding-right: 40px;
+}
+
+/* CONTAINER */
+
+.last-container {
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 3rem 0 0;
+  }
+  .container article {
+    max-width: 35.527136788rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+    font-family: 'Hind Madurai', sans-serif;
+}
+h1, h2, h3, .container article h1, h4, h5, .container article h2, h6 {
+    line-height: 1.5;
+    margin: 2rem 0 1rem;
+  }
+  
+  h1 {
+    font-size: 3.8146972656rem;
+    font-weight: 300;
+  }
+  
+  h2 {
+    font-size: 2.44140625rem;
+    font-weight: 300;
+  }
+  
+  h3, .container article h1 {
+    font-size: 1.5625rem;
+    font-weight: 400;
+  }
+  
+  h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+  h5, .container article h2 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.01rem;
+    font-weight: 600;
+  }
+  
+  h6 {
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+  }
+  
+  p {
+    margin: 1em 0;
+    max-width: 35.527136788rem;
+  }
+  p.subheading {
+    font-size: 1.25rem;
+    font-weight: 300;
+    text-align: center;
+    color: #82878C;
+    margin: -.4rem auto 2rem;
+  }
+
+  p.intro {
+    font-size: 1.25rem;
+  }
+  p.aside {
+    font-size: 0.8rem;
+  }
+  p.note {
+    font-size: 0.64rem;
+    letter-spacing: 0.01rem;
+    max-width: 18.1898940355rem;
+  }
+  
+  a {
+    color: #0073aa;
+  }
+
+  /* footer */ 
+
+.footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;  
+    color: white;
+  }
+
+  footer {
+    margin-top: 2rem;
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+  }
+  
+  .col-md-6 h6 {
+    letter-spacing: 0rem;
+    line-height: 0;
+  }
+
+  footer h6 {
+    font-family: 'Hind Madurai', sans-serif;
+  }
+  
+  .footer-copyright a {
+    color: royalblue;
+    text-decoration: none;
+    font-family: 'Hind Madurai', sans-serif;
+  }
+  
+  footer img {
+    position: relative;
+    left: -2.5rem;
+    width: 10rem;
+  }
+  
+  footer p a {
+    color: royalblue;
+    font-family: 'Hind Madurai', sans-serif;
+  }
+  
+  footer p a:hover {
+    color: rgb(33, 56, 122);
+    text-decoration: none;
+  }
+  
+  #sahibinden {
+    color: #e79e4f;
+  }
+  
+
+iframe {
+    position: relative;
+    width: 300px;
+    height: 150px;
+}
+
+
+.form-header  {
+  position: relative;
+  font-family: 'Hind Madurai', sans-serif;
+  left: 50px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+
+form { max-width:420px; margin:60px auto; }
+
+.feedback-input {
+color:black;
+font-family: Helvetica, Arial, sans-serif;
+font-weight:500;
+font-size: 18px;
+border-radius: 5px;
+line-height: 22px;
+background-color: transparent;
+border:2px solid #007bff;
+transition: all 0.3s;
+padding: 13px;
+margin-bottom: 20px;
+width:100%;
+box-sizing: border-box;
+outline:0;
+}
+
+.feedback-input:focus { border:2px solid #419dff; }
+
+textarea {
+height: 150px;
+line-height: 150%;
+resize:vertical;
+}
+
+[type="submit"]:not(:first-child) {
+font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+width: 100%;
+background:#007bff;
+border-radius:5px;
+border:0;
+cursor:pointer;
+color: white;
+font-size:24px;
+padding-top:10px;
+padding-bottom:10px;
+transition: all 0.3s;
+margin-top:-4px;
+font-weight:700;
+}
+[type="submit"]:hover { background:#419dff; }
