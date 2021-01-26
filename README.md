@@ -37,7 +37,7 @@ nodemon server.js # or node server.js
 
 ```
 
-* You Need MongoDB Compass *
+* You Need MongoDB Compass 
 
 <b>Admin login information:<br></b>
 
